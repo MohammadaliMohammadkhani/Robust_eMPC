@@ -18,7 +18,7 @@ yref=0.5;
 
 %=========================== System Configuration ==========================
 % this part introduces system in state space format dx=A*x+B*u+T*theta and  y=C*x+D*u+Tprime*theta
-% we define a structure format for system matrices 
+% we define a structure format for system matrices %%%
 % A=sysStruct.A,B=sysStruct.B,C=sysStruct.C,T=sysStruct.T,Tprime=sysStruct.Tprime
 % sysStruct.xmax, sysStruct.xmin, sysStruct.umax, sysStruct.umin defines
 % bounds for states and input signal
